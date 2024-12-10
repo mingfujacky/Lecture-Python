@@ -163,5 +163,6 @@ cython_debug/
 
 # Temp files
 tmp/
+test/
 z_*.*
 .DS_Store
