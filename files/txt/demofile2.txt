@@ -1,0 +1,2 @@
+write first line
+append second line
