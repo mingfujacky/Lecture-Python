@@ -122,7 +122,7 @@ print(result)  # 輸出 ['apple', 'banana-orange']
 |1986|左左右右|
 ---
 # Lab:
-1. write OJ#1933  (no input)
-2. write OJ#1868  (input a string)
-3. write OJ#1840  (input a number)
-4. write OJ#1841  (input two numbers)
+1. write OJ#1933  (早安 Python, no input)
+2. write OJ#1868  (Say Hello, input a string)
+3. write OJ#1840  (整數的平方, input a number)
+4. write OJ#1841  (整數相加, input two numbers)
