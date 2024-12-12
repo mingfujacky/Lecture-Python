@@ -4,3 +4,5 @@ numpy==2.2.0
 pandas==2.2.3
 requests==2.32.3
 beautifulsoup4==4.12.3
+twstock==1.4.0
+lxml==5.3.0
