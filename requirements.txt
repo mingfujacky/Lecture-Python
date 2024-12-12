@@ -1,0 +1,6 @@
+openai==0.28
+matplotlib==3.9.3
+numpy==2.2.0
+pandas==2.2.3
+requests==2.32.3
+beautifulsoup4==4.12.3
