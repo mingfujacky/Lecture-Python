@@ -6,10 +6,11 @@ paginate: true
 # Python 與 AI 數據分析
 - 講師：林志偉
 - 時數：40 小時
-- 教室：https://meet.google.com/ukc-bftq-qbq
+- 教材：https://github.com/mingfujacky/Lecture-Python.git
+![bg right:30% w:300 Python Material in Git](../files/image/qrcode_lecture_python.png)
 ---
 # 課程講師 - 林志偉 (Jacky Lin)
-![bg right:30% w:300](../files/image/jacky_last_day_in_tsmc.jpg)
+![bg right:30% w:200](../files/image/jacky_last_day_in_tsmc.jpg)
 
 - #### 現職: 陽明交通大學 / 學士後電子與光子學士學位學程 助理教授
 - #### 學歷: 交大資訊管理博士
@@ -70,7 +71,7 @@ Class |0   |1   |2
 ---
 # 時時實際操作
 - 如何學Python：做中學，透過自學找答案的能力比學習演算法知識更為重要!!
-- 如何教Python：教中學，從偶像劇到實境秀，終極是[街頭表演](https://youtube.com/shorts/PTp6IL3jMos?si=3f1H0sopkoBWKHr4)
+- 如何教Python：教中學，從偶像劇到[實境秀](https://youtube.com/shorts/R7S3G9qpQ_U?si=rrs5ZwoKdHk0iUU4)
 <br>
 >我鼓勵你使用鍵盤手動複製這些程式，而不是直接將其原始程式碼複製貼上到新檔案中；這有助於你對程式產生「肌肉記憶」，並迫使你在鍵入時考慮每一行。
 ![bg right:30% w:300 遞迴演算法大師親授面試心法](https://i3.momoshop.com.tw/1721136961/goodsimg/0013/030/254/13030254_R.jpg)
