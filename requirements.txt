@@ -57,3 +57,5 @@ tzdata==2024.2
 urllib3==2.2.3
 wcwidth==0.2.13
 yarl==1.18.3
+openpyxl==3.1.5
+scikit-learn==1.6.0
