@@ -19,12 +19,5 @@
         "chinese": 90,
         "math": 95,
         "english": 100
-    },
-    {
-        "id": 4,
-        "name": "Selina",
-        "chinese": 100,
-        "math": 100,
-        "english": 100
     }
 ]
