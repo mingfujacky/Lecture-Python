@@ -16,11 +16,11 @@ paginate: true
 [走歪的工程師James影片](https://youtu.be/t35Fxn0nenU?si=ebDvv9J6ZIw8Xn9I)
 
 ---
-# 虛擬碼 (Pseudo Code)
+### 虛擬碼 (Pseudo Code)
 - 由一行行的可執行步驟組成
 - 使用迴圈來重複執行步驟
 - 使用條件來選擇執行步驟
-## 等外送 ##
+### 等外送
 1. 外送小哥到了嗎?
 2. 到了, 取餐
 3. 沒到, 檢查外送APP
