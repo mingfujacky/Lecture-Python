@@ -162,6 +162,7 @@ cython_debug/
 #.idea/
 
 # Temp files
+restricted/
 tmp/
 test/
 z_*.*
