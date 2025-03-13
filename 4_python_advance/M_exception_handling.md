@@ -1,11 +1,46 @@
 ---
 marp: true
-html: true
 theme: default
+class: invert
+size: 16:9
 paginate: true
+footer: 國立陽明交通大學 電子與光子學士學位學程
+headingDivider: 1
+style: |
+  section::after {
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+  }
+  
+  .middle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .middle-grid img {
+    width: 75%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid img {
+    width: 100%;
+  }
+  .red-text {
+    color: red;
+  }
+  
+  .blue-text {
+    color: blue;  
+  }
+
+  .small-text {
+    font-size: 0.80rem;
+  }
 ---
 # 除錯與例外處理
----
+
 # 常見的錯誤 - Syntax Error (語法錯誤)
 - if-esle, for, while, def 沒有加冒號
 - 判斷式中將 == 寫成 =
@@ -18,27 +53,23 @@ if 5 = 3:
     print("5 = 3")
 print("5 is bigger than 3"") 
 ```
----
-# 常見的錯誤 - Exception (例外)
-- 語法正確但程式的執行因報錯而被迫中止
-- Name Error
-- Type Error 
-- Zero Division Error
-- Index Error
-- Identation Error
 
+# 常見的錯誤 - Exception (例外)
+語法正確但程式的執行因報錯而被迫中止
+- <span class="small-text">Name Error</span>
+- <span class="small-text">Type Error </span>
+- <span class="small-text">Zero Division Error</span>
+- <span class="small-text">Index Error</span>
+- <span class="small-text">Indentation Error</span>
 ```python
 a = age + 1
 print('1' + 1); print(6 / 0); print('python'[9])
-
 if 5 == 5:
 print('5 = 5')
-
  if 5 == 5:
      print('5 = 5')
-
 ```
----
+
 # 常見的錯誤 - Environment Error (環境錯誤)
 - 程式的執行環境所引發的錯誤
 - 記憶體不足
@@ -49,9 +80,9 @@ print('5 = 5')
 with open("a.txt", "r", encoding = "utf-8") as f:
     print(f.read())
 ```
----
+
 # 除錯工具 - print()
-- 利用 print() 將有嫌疑或需觀察的變數印出
+利用 print() 將有嫌疑或需觀察的變數印出
 ```python
 # translate "hello" to "h_e_l_l_o"
 def add_underline(word):
@@ -71,14 +102,14 @@ def add_underline(word):
     return new_word
 print(add_underline('hello'))
 ```
----
+
 # 除錯工具 - debugger
 - 利用除錯器 (debugger) 除錯
 - step_over
 - step_in
 - step_out
 - resume
----
+
 # Lab: 根據錯誤訊息給的線索，修正程式碼
 ```python
 'hello'[-6]
@@ -88,7 +119,7 @@ print(add_underline('hello'))
 'hello'.count(h)
 'hello' * '2'
 ```
----
+
 # Lab: debug程式碼，讓執行得到正確的結果 
 
 ```python
@@ -102,7 +133,7 @@ def power_integer(num, p):
 
 print(power_integer(2, 3))
 ```
----
+
 # 例外處理 (Execeptional Handling)
 - 程式執行時的安全帶
 - 若無例外處理(安全帶)，則程式遇見錯誤時將直接終止
@@ -113,7 +144,6 @@ print(power_integer(2, 3))
 
 ![bg right:50% w:600](https://realpython.com/cdn-cgi/image/width=1394,format=auto/https://files.realpython.com/media/try_except_else_finally.a7fac6c36c55.png)
 
----
 # Try-except
 
 ```python
@@ -132,7 +162,6 @@ except:
     print('Ran into trouble. Please contact help desk!')    
 ```
 
----
 # Try-except-else-finally
 ```python
 try:
@@ -150,7 +179,7 @@ else:
 finally:
     print("\ncode end!!")
 ```    
----
+
 # Lab: 練習 try-except
 請寫一段例外處理的程式，來避免程式當掉
 ```python
@@ -167,7 +196,7 @@ try:
 except KeyError as e:
     print(f"key: {e} is not in my_dict")
 ```    
----
+
 # W3 School
 [Try Except] https://www.w3schools.com/python/exercise.asp?x=xrcise_try_except1
 

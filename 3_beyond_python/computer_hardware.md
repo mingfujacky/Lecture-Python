@@ -1,10 +1,46 @@
 ---
 marp: true
 theme: default
+class: invert
+size: 16:9
 paginate: true
+footer: 國立陽明交通大學 電子與光子學士學位學程
+headingDivider: 1
+style: |
+  section::after {
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+  }
+  
+  .middle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .middle-grid img {
+    width: 75%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid img {
+    width: 100%;
+  }
+  .red-text {
+    color: red;
+  }
+  
+  .blue-text {
+    color: blue;  
+  }
+
+  .small-text {
+    font-size: 0.80rem;
+  }
 ---
 # 電腦硬體超微板
----
+
 # 電腦硬體的五大單元
 ![bg right:40% w:500 Computer Architecture](https://linux.vbird.org/linux_basic/centos7/0105computers/computer02.gif)
 
@@ -15,13 +51,12 @@ paginate: true
 - **輸出單元 (Output Device)**
 - 外部儲存裝置 (Secondary Storage Unit)
 - 網路 (Network)
----
+
 # 快速了解電腦
 ![bg right:40% w:500 hcomputer ardware](https://i.pinimg.com/736x/8a/24/a7/8a24a74edf0fc0ee28c4c309b14dc870.jpg)
 
 [電腦硬體介紹影片](https://youtu.be/KBNYqMNdmyw?si=okXYv9rY8PraTxlS)
 
----
 # 主機板及其住戶
 1. CPU插槽
 2. 記憶體插槽
@@ -34,6 +69,5 @@ paginate: true
 9. 電源供應
 ![bg right:40% w:500 Mother Board](https://attach.mobile01.com/attach/200707/mobile01-ca7dafc720062e3bbd81e553c7386690.png)
 
----
 # Lab: 了解你的電腦規格
 查詢你目前使用的電腦的硬體規格, 如 CPU, Memory, Disk?

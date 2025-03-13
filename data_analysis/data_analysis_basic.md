@@ -1,20 +1,53 @@
 ---
 marp: true
 theme: default
+class: invert
+size: 16:9
 paginate: true
+footer: 國立陽明交通大學 電子與光子學士學位學程
+headingDivider: 1
+style: |
+  section::after {
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+  }
+  
+  .middle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .middle-grid img {
+    width: 75%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid img {
+    width: 100%;
+  }
+  .red-text {
+    color: red;
+  }
+  
+  .blue-text {
+    color: blue;  
+  }
+
+  .small-text {
+    font-size: 0.80rem;
+  }
 ---
 # 資料分析流程 (Data Analysis Process)
 Use case: james_bond_data.csv
 
----
 # Six Phases of Google Data Analysis
 ![bg right:70% w:800 Six Phases of Google Data Analysis](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*4h7ahFBqnaFHeWibHWOl7w.png)
 
----
 # A Data Analysis Workflow
 ![bg right:70% w:800 Six Phases of Google Data Analysis](https://realpython.com/cdn-cgi/image/width=1292,format=auto/https://files.realpython.com/media/ie-data-analysis-workflowv3.bfb835b95c5e.png)
 
----
 # (1) Set Your Objects
 - Objective: problem-solving, define the business problem and involved stakeholder
 - Examples of problem statement
@@ -27,8 +60,7 @@ Use case: james_bond_data.csv
   - Are there any insights to be gleaned from analyzing the lengths of the movies?
   - Is there a relationship between the number of enemies James Bond has killed and the user ratings of the movie in which they were killed?
 
----
-  # (2) Prepare
+# (2) Prepare
   - Collect and store data set
   - Ways to collect data
     - 問卷
@@ -40,20 +72,18 @@ Use case: james_bond_data.csv
     - 資料庫 (SQL, NoSQL)
   - James Bond 資料集可從Google Drive 下載 "https://drive.google.com/uc?id=19Dq2YUJZHNbfUVIOXVQnMSVzKxL-Zew3"
 
-  ---
-  # (3) Process – 觀察數據集的組成
-  - Clean data, transform data, check data quality
-  - Process data
-    - 空值的處理
-    - 去除重複資料
-    - 資料內容的置換
-    - 調整資料格式
-    - 異常值處理
-  - Process 資料集
-    - 了解資料集結構: df.shape, df.head()
-    - 基本統計 (basic statistics) 來觀察數據分佈: df.info(), df.describe()
-  
----
+# (3) Process – 觀察數據集的組成
+- Clean data, transform data, check data quality
+- Process data
+  - 空值的處理
+  - 去除重複資料
+  - 資料內容的置換
+  - 調整資料格式
+  - 異常值處理
+- Process 資料集
+  - 了解資料集結構: df.shape, df.head()
+  - 基本統計 (basic statistics) 來觀察數據分佈: df.info(), df.describe()
+
 # (4) Analysis
 - Find pattern, relationship, trend and noisy
 - Analysis methods
@@ -65,22 +95,18 @@ Use case: james_bond_data.csv
   - 機器學習演算法
   - 時間序列分析
 
----
 # (5) Share
 - Data-driven storytelling, communication with stakeholder
 - Communication
   - 資料視覺化
   - Dashboard and charting
 
----
 # (6) Act
 According to analysis result to take actions
 
----
 # Taking Actions Based on Data Analysis Result
 ![bg right:70% w:800 fab tool](../files/image/fab_tool_data_analysis.png)
 
----
 # EDA (Exploratory Data Analysis, 探索式資料分析)
 - EDA 是一套包含資料處理，資料分析， 資料視覺化及統計等技術的數據分析方法， 其主要目的是從各個面向探索數據，找出回答已定義問題的線索，並進一步確認各面向間關聯，以合適的圖表與關係利害人溝通。
 - EDA 通常沒有固定可依循的步驟，而是以一連串的啟發式的提問-回答的循環逐漸的釐清問題的核心，從數據中挖掘對問題深度的見解 (insights)

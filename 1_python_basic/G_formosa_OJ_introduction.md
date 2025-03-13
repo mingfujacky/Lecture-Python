@@ -1,27 +1,66 @@
 ---
 marp: true
-html: true
 theme: default
+class: invert
+size: 16:9
 paginate: true
+footer: 國立陽明交通大學 電子與光子學士學位學程
+headingDivider: 1
+style: |
+  section::after {
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+  }
+  
+  .middle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .middle-grid img {
+    width: 75%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid img {
+    width: 100%;
+  }
+  .red-text {
+    color: red;
+  }
+  
+  .blue-text {
+    color: lightskyblue;  
+  }
+
+  .brown-text {
+    color: brown;  
+  }
+
+  .small-text {
+    font-size: 0.90rem;
+  }
 ---
+
 # Formosa OJ
 - Python Class On-line Judge System – Formosa OJ
 - https://formosa.oj.cs.nycu.edu.tw/signin/
 - 半導體基地的學生請使用 Google OAuth2 登入
 - 學士後專班的學生請使用 NYCU OAuth2 登入
 - 選擇 "55 林志偉老師 Python 課程" 進入
----
+
 # string.split()
 - 用來將字串分割成列表的方法
 - 根據指定的分隔符，將字串切割成多個子字串，並返回一個列表
 ```python
 str.split(sep=None, maxsplit=-1)
 # sep（optional）：指定分隔符, 預設為 None，這表示會自動以 空格、\t、\n 為分隔符
-# maxsplit (optional):指定分割次數, 預設為-1，表示不限制分割次數（將分割所有可能的部分）。
-# 返回一個列表，包含分割後的子字串。
-
+# maxsplit (optional):指定分割次數, 預設為-1，表示不限制分割次數（將分割所有可能的部分）
+# 返回一個list，包含分割後的子字串
 ```
----
+
 # Example of string.split()
 ```python
 text = "Python is great"
@@ -38,11 +77,10 @@ text = "apple-banana-orange"
 result = text.split("-", maxsplit=1)  # 最多分割一次
 print(result)  # 輸出 ['apple', 'banana-orange']
 ```
----
 
-# Read input method
+# Read Exercise Input
 
-***DO NOT NEED PROMOTE MESSAGE IN INPUT()!!***
+<span class="brown-text">**DO NOT NEED PROMOTE MESSAGE IN INPUT()!!**</span>
 
 |Case                       |Input         |Get input       | Example
 |---------------------------|--------------|----------------|-------------------
@@ -51,8 +89,12 @@ print(result)  # 輸出 ['apple', 'banana-orange']
 |one line two numbers       |"10 20"       |a, b = map(int, input().split()  | OJ#1841
 |one line not fixed number  |"1 2 3 4 5 6" |x = list(map(int, input().split())) |
 
----
 # Part 1
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
 |PID|Problem|Lab
 |---|-------|--------
 |1840|整數的平方|1G
@@ -62,35 +104,39 @@ print(result)  # 輸出 ['apple', 'banana-orange']
 |1846|菜鳥的年資|1H
 |1847|你在說迴文嗎？|2B
 |1848|數字位數加總|2B
-
----
-# Part 2
-|PID|Problem|Lab
-|---|-------|--------
 |1849|Merry X'mas|1I
 |1854|簡易字串運算|2A
 |1855|匯率轉換|
+
+# Part 2
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
+|PID|Problem|Lab
+|---|-------|--------
 |1856|簡易型開票統計|
 |1857|最遠的距離|
 |1858|多層金剛鑽|
 |1868|Say Hello|1G
-
----
-# Part 3
-|PID|Problem|Lab
-|---|-------|--------
 |1869|變數交換|2C
 |1875|串列元素改位子|
 |1876|移除重複元素並排序|
 |1877|找出水仙花數|
 |1878|生日快樂|
 |1879|分數判斷|1H
-|1880|找質數|1I
 
----
-# Part 4
+# Part 3
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
+
 |PID|Problem|Lab
 |---|-------|--------
+|1880|找質數|1I
 |1881|n 階乘|
 |1882|判斷等比數列|
 |1883|信用卡號驗證|
@@ -98,29 +144,28 @@ print(result)  # 輸出 ['apple', 'banana-orange']
 |1885|四則運算|
 |1886|完全平方和|
 |1895|月月是好月|
-
----
-# Part 5
-|PID|Problem|Lab
-|---|-------|--------
 |1933|早安 Python|1G
 |1974|凱撒密碼|
+
+# Part 4
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
+|PID|Problem|Lab
+|---|-------|--------
 |1975|最小公倍數(LCM)|
 |1976|Tic-Tac-Toe 判斷勝負|
 |1977|幾A幾B|
 |1978|停車收費|
 |1979|找因數|
-
----
-# Part 6
-|PID|Problem|Lab
-|---|-------|--------
 |1980|出國換錢|
 |1981|派派村水桶題|
 |1982|直角三角形|
 |1983|Two Sum|
 |1986|左左右右|
----
+
 # Lab:
 1. write OJ#1933  (早安 Python, no input)
 2. write OJ#1868  (Say Hello, input a string)
