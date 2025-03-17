@@ -75,10 +75,6 @@ style: |
 - Run cell (CTRL + ENTER, SHIFT + ENTER)
 - Delete / add / move cells
 - Add markdown text
-- Mount (掛載) Google 雲端硬碟
-- 跟Python環境相關的指令
-  - !python --version
-  - !pip list
 
 # Colab 使用介紹
 [影片 開始使用 Google Colab](https://youtu.be/eJCXFIoOwdw?si=_HyCFGAgGT4HAYlx)

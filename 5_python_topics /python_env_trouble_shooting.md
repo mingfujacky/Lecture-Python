@@ -110,3 +110,12 @@ Modify path
 # Windows - Uninstall Anaconda
 - In the folder where you installed Anaconda (Example: C:\Users\username\Anaconda3) there should be an executable called Uninstall-Anaconda.exe. 
 - Double click on this file to start uninstall Anaconda.
+
+# View ipynb File in Github Get "Unable to render code block"
+<span class="small-text">
+- Clear cache & cookies: outdated cache might sometimes cause rendering issues.<br>
+- Browser extensions: browser extensions can occasionally interfere with content rendering. Disable extensions one by one to see if any extension cause the problem.<br>
+<span class="red-text">"Dark Mode - Night Eye", "Youtube", "ContentShake AI Extension", "Ninja Cookie", "Awesome ScreenShot", "TopCashback", "Saladict", "Truffle", "Selectext: Copy Text from Videos", "SmoothScroll", "Tampermonkey", "word translation plugin", "ModHeader - Modify HTTP headers"</span><br>
+- Update browser to latest version<br>
+- Toggling hardware acceleration in Edge browser settings<br>
+- Alternative approach: As an interim solution, you could consider using external platforms or tools like nbviewer to view your .ipynb files. Just paste the link to your GitHub .ipynb file there, and it should render appropriately.</span>

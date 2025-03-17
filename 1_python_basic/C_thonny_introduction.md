@@ -53,7 +53,7 @@ style: |
 - 將檔案命名為 first_python_on_thonny.py, 並存檔
 - 在檔案總管中找到這個檔案
 - 關閉 Thonny
-- 打開 Thonny 並重新載入first_python_on_thonny.py
+- 打開 Thonny, 功能列表 File - Open 找到 first_python_on_thonny.py,  並重新載入
 
 # Thonny 簡單操作
 - 快速存取工具列
