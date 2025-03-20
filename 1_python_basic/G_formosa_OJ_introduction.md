@@ -86,7 +86,7 @@ print(result)  # 輸出 ['apple', 'banana-orange']
 |---------------------------|--------------|----------------|-------------------
 |one line string            |"John"        |my_str = input()| OJ#1868 
 |one line number            |"100"         |n = int(input()) | OJ#1840
-|one line two numbers       |"10 20"       |a, b = map(int, input().split()  | OJ#1841
+|one line two numbers       |"10 20"       |a, b = list(map(int, input().split())  | OJ#1841
 |one line not fixed number  |"1 2 3 4 5 6" |x = list(map(int, input().split())) |
 
 # Part 1
