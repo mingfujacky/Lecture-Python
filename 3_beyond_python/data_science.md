@@ -87,6 +87,20 @@ i|01101001
 你|11100100 10111101 10100000
 好|11100101 10100101 10111101
 
+# 字元編碼的總結
+**ASCII**
+- Designed as a 7-bit encoding system.
+- The 8th bit (most significant bit) was often used for error detection or control signals.
+
+**UTF-8**
+Character Type | UTF-8 Byte Size
+---------------|----------------
+ASCII (English)|1 byte
+Latin extended|2 bytes
+Chinese / Japan / Korea|3 bytes
+Emoji / Rare used characters|4 bytes
+
+
 # 數字編碼：二進位
 ![bg right:50% w:500 數字編碼](https://kopu.chat/wp-content/uploads/2017/04/e89ea2e5b995e5bfabe785a7-2017-04-28-21-26-01.png)
 
