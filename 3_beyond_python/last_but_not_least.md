@@ -81,3 +81,6 @@ Q: 老師我主要想先詢問我自己學程式的時候有點覺得力不從�
 
 # GPT Might Make Mistake
 ![bg right:70% w:850](../files/image/gpt_make_mistake.png)
+
+# 
+![bg left:100% w:50%](../files/image/farewell.png)
