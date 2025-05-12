@@ -62,8 +62,9 @@ Chrome, Anti-virus, Office, Game
 - MAC: 終端機 (Terminal)
 ![Mac Terminal w:50](
 https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png)
-- Windows: 命令提示列 (Prompt)
+- Windows: 命令提示列 (Prompt), 使用 Windows鍵 + R 或是搜尋 CMD
 ![Windows Prompt w:250](https://i0.wp.com/image.walker-a.com/2021/10/dbox/dbox-02.jpg?w=1200&ssl=1)
+
 
 # 電腦工作原理
 [影片：學程式設計前，懂一些作業系統原理及操作](https://youtu.be/26EaLKPiskc?si=uUY8GJwegzzZEA6g)
