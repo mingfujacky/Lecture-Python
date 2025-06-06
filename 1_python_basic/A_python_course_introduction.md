@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-class: invert
+class: 
 size: 16:9
 paginate: true
 footer: 國立陽明交通大學 電子與光子學士學位學程
@@ -40,41 +40,62 @@ style: |
   }
 ---
 # Python 與 AI 數據分析
-- 講師：林志偉
-- 時數：40 小時
-- 教材：
-  https://github.com/mingfujacky/Lecture-Python.git
-![bg right:30% w:300 Python Material in Git](../files/image/qrcode_lecture_python.png)
+> 
+> 程式思維養成：以 Python 為核心工具
+> 
+<br>
+
+- 本課程針對初學者設計，上課時數為 40 小時
+- 課程教材請掃描右方QR Code 或連接至GitHub https://github.com/mingfujacky/Lecture-Python.git
+![bg right:30% w:100% Python Material in Git](../files/image/qrcode_lecture_python.png)
 
 # 課程講師 - 林志偉 (Jacky Lin)
-![bg right:30% w:200](../files/image/jacky_last_day_in_tsmc.jpg)
 
-- #### 現職: 陽明交通大學 / 學士後電子與光子學士學位學程 助理教授
-- #### 學歷: 交大資訊管理博士
-- #### 經歷: 台積電資訊科技(IT)
-- #### 專長: 資料工程、程式設計、巨量資料分析
-- #### Email: jacky.jw.lin@nycu.edu.tw
++ 現職: 陽明交通大學助理教授 學士後電子與光子學程 
++ 學歷: 交通大學 資訊管理博士
++ 經歷: 台積電 資訊科技部門(IT)
++ 專長: 資料工程、程式設計、巨量資料分析
++ Email: jacky.jw.lin@nycu.edu.tw
+
+![bg right:30% w:90%](../files/image/jacky_last_day_in_tsmc.jpg)
 
 # 課程規劃
-- #### 課程目標
-  *-* 熟悉Python基礎語法
-  *-* 練習運算思維(Computational Thinking)：為了解決某個問題，以邏輯化的思考方式導出給電腦的正確指令組合
-  *-* 初探數據分析工具箱
-- #### 授課方式
-  *-* 教材講解
-  *-* Lab實作
-  *-* NYCU Formosa On-line Judge 習題
++ **課程目標**
+  + 養成問題拆解與運算思維，設計流程解決實務問題
+  + 熟悉 Python 程式語法：變數、條件、迴圈、函式
+  + 實作資料分析工具：Numpy、Matplotlib、CSV
+  + 探索 AI 輔助程式設計（如 GitHub Copilot）
++ **授課方式**
+<div class="grid">
+    <img src="../files/image/course_op.png" alt="">
+</div>
 
 # 課程大綱
-![bg right:50% w:400](../files/image/course_roadmap.png)
+> 循序漸進學習 Python 與資料分析，並導入 AI 輔助工具
+![bg right:50% w:65%](../files/image/course_roadmap.png)
 
-# 時時實際操作
+# 🧠 練習很重要！
 
->我鼓勵你使用鍵盤手動複製這些程式，而不是直接將其原始程式碼複製貼上到新檔案中；這有助於你對程式產生「肌肉記憶」，並迫使你在鍵入時考慮每一行。
+>我鼓勵你「手動輸入」而非複製貼上，這能幫助你產生寫程式的「肌肉記憶」，並強化理解。
 ![bg right:30% w:300 遞迴演算法大師親授面試心法](https://i3.momoshop.com.tw/1721136961/goodsimg/0013/030/254/13030254_R.jpg)
 
-# Supplement
+# 🤖 什麼是 Vibe Coding (氛圍編程)?
+> Vibe coding = coding with AI pair-programmers like Copilot or ChatGPT
 
++ 由 OpenAI 前研究總監 Andrej Karpathy 提出
++ 使用生成式 AI（如 Copilot、ChatGPT）以自然語言生成程式
++ 初學者能快速產出結果，減少挫折、提升學習樂趣
+
+# 🔗 Vibe Coding 延伸閱讀：
++ [AI強勢取代！今年畢業生有多慘？](https://www.cw.com.tw/article/5135668)
++ [Vibe Coding是什麼？矽谷最潮新名詞](https://youtu.be/8me0juJCpWM?si=3tcdojzGbhJKxFGo)
++ [Vibe Coding 操作技巧與技能轉變](https://ikala.ai/zh-tw/blog/ikala-ai-insight/vibe-coding-intro/)
+
+# 🚀 GitHub Copilot 練習題建議
++ 輸入一個句子，然後計算該句子內的字數，還有最長的字是哪一個
++ 判斷某年是否為閏年
+
+# Supplement
 # Survey: 對於Python程式開發的掌握度?
 - A : 第一次學習程式設計
 - B : 沒學過Python, 但學習過其他程式

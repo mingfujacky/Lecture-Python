@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-class: invert
+class:
 size: 16:9
 paginate: true
 footer: 國立陽明交通大學 電子與光子學士學位學程
@@ -43,23 +43,21 @@ style: |
     font-size: 0.90rem;
   }
 ---
+# Formosa OJ 登入與使用說明
+- Python 課程使用線上評測平台 – **Formosa OJ**
+- 登入網址：[formosa.oj.cs.nycu.edu.tw](https://formosa.oj.cs.nycu.edu.tw/signin/)
+- 半導體基地學生請使用 **Google OAuth2** 登入  
+- 學士後專班學生請使用 **NYCU OAuth2** 登入
+- 登入後選擇：**「55 林志偉老師 Python 課程」**
 
-# Formosa OJ
-- Python Class On-line Judge System – Formosa OJ
-- https://formosa.oj.cs.nycu.edu.tw/signin/
-- 半導體基地的學生請使用 Google OAuth2 登入
-- 學士後專班的學生請使用 NYCU OAuth2 登入
-- 選擇 "55 林志偉老師 Python 課程" 進入
-
-# string.split()
-- 用來將字串分割成列表的方法
-- 根據指定的分隔符，將字串切割成多個子字串，並返回一個列表
+# `string.split()` 字串分割函式
+- 可將字串根據指定的分隔符切割為多個子字串
+- 返回值為一個 `list`
 ```python
-str.split(sep=None, maxsplit=-1)
-# sep（optional）：指定分隔符, 預設為 None，這表示會自動以 空格、\t、\n 為分隔符
-# maxsplit (optional):指定分割次數, 預設為-1，表示不限制分割次數（將分割所有可能的部分）
-# 返回一個list，包含分割後的子字串
+str.split(sep = None, maxsplit = -1)
 ```
++ sep（optional）：指定分隔符, 預設為 None，這表示會自動以 空格、\t、\n 為分隔符
++ maxsplit (optional):指定分割次數, 預設為-1，表示不限制分割次數（將分割所有可能的部分）
 
 # Example of string.split()
 ```python

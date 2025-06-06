@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-class: invert
+class: 
 size: 16:9
 paginate: true
 footer: 國立陽明交通大學 電子與光子學士學位學程
@@ -39,50 +39,56 @@ style: |
     font-size: 0.90rem;
   }
 ---
-# 安裝 Google Colab
+# 安裝與使用 Google Colab
 
-# 執行 Python 的環境
+# Python 程式的執行環境
 
-- <span class="blue-text">開發環境</span>：編輯 source code
-  - 文字編輯器: Notepad
-  - IDE (整合開發環境): Thonny, VS Code
-- <span class="blue-text">翻譯工具</span>：翻譯 source code 成為 machine code
-  - 直譯器 Interpreter
-- <span class="blue-text">運算資源</span>：執行 machine code
-  - 雲端
-  - 本機
++ **整合開發環境(IDE)** 編輯原始碼用
+  + Thonny
+  + VS Code
+  + Jupyter Lab
++ **直譯器** 轉原始碼成機器碼
+  + Python 3
++ **運算資源** 實際執行程式的設備
+  + 雲端
+  + 本機
 
-![bg right 40% w:90% Python Interpreter](https://www.datasciencecentral.com/wp-content/uploads/2021/10/8784089862.jpeg)
+![bg right 50% w:100% Python Interpreter](../files/image/python_run_cycle.png)
 
-# 雲端環境 - Colab
-- 開發環境: Google Colaboratory
-- 翻譯工具: Python3 interpreter, provided by Google Colab
-- 運算資源: 使用Google cloud 的CPU和Memory
+# 雲端環境 - Google Colab
++ 整合開發環境: Google Colab notebook
++ 直譯器: 內建於 Google Colab 的 Python3 直譯器
++ 運算資源: Google cloud 提供的 CPU 和 Memory
 
 <p class="small-text">
-- 使用自己的Google帳號登入，進入”雲端硬碟”<br>
-- 點選左上方新增按鈕新增文件，選擇”Google Colaboratory”，新增一個Colab Notebook<br>
-- 若無”Google Colaboratory”的選項，點選 ”+連接更多應用程式”，找到Google Colaboratory後安裝<br>
-- 重新命名檔名為FlyPython.ipynb (副檔名 ipynb 代表 interactive python notebook)<br>
-- 輸入簡單指令來確認CoLab安裝完成：CTRL-ENTER, SHIFT-ENTER 或 PLAY按鈕執行指令<br>
-- 儲存第一隻Python程式：File/Save, or CTRL+S<br>
-- 回 Google Drive, 檢查程式是否存在雲端硬碟內 
+1. 使用自己的 Google 帳號登入並開啟「雲端硬碟」<br>
+2. 點選左上「新增」→「Google Colaboratory」建立 Colab Notebook<br>
+3. 若未顯示選項，點選「+ 連接更多應用程式」搜尋並安裝 Google Colaboratory<br>
+4. 將檔案重新命名為 FlyPython.ipynb（ipynb = interactive Python notebook）<br>
+5. 嘗試執行：輸入簡單指令並按下 `CTRL+ENTER`、`SHIFT+ENTER` 或播放鍵<br>
+6. 儲存程式：點選「File → Save」或按下 `CTRL+S`<br>
+7. 回到 Google Drive，確認檔案是否已儲存至雲端硬碟  
 </p>
 
-# Colab 簡單操作
-- Rename file
-- Save file (CTRL + S)
-- Run cell (CTRL + ENTER, SHIFT + ENTER)
-- Delete / add / move cells
-- Add markdown text
+# Colab 基本操作
++ Rename file
++ Save file (CTRL + S)
++ Run cell (CTRL + ENTER, SHIFT + ENTER)
++ Delete / add / move cells
++ Add markdown text
 
-# Colab 使用介紹
-[影片 開始使用 Google Colab](https://youtu.be/eJCXFIoOwdw?si=_HyCFGAgGT4HAYlx)
+# 📺 Google Colab 教學影片
+[開始使用 Google Colab](https://youtu.be/eJCXFIoOwdw?si=_HyCFGAgGT4HAYlx)
 
-# Lab: 使用Colab來寫程式
-- 把CoLab 當計算機計算
-   - 鍵入 2 * 4 * 6 然後執行
-   - 鍵入 20 + 4 * (3+2) 然後執行
-- 鍵入 print (‘Hello Python, I need you!!’) 然後執行
-- 存檔成 first_python_on_colab.ipynb
-- 關閉 CoLab, 在Google雲端硬碟上找到 first_python_on_colab.ipynb, 並且打開它
+# Lab: 用 Colab 寫第一個 Python 程式
++ 建立新 CoLab notebook
++ 命名為 first_python_on_colab.ipynb
++ 執行簡單數學運算，體驗互動式功能: 鍵入 20 + 4 * (3+2), 然後執行
++ 執行基本 Python 程式，理解程式運作方式: 鍵入以下程式碼, 然後執行
+```python
+a = 1
+b = 2
+print('result =', a + b)
+```
++ 關閉 CoLab
++ 回 Google Drive，打開並確認程式仍可執行
