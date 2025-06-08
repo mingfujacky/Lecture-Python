@@ -41,8 +41,15 @@ style: |
 ---
 # 本機開發環境 - VS Code
 + 整合開發環境：Visual Studio Code  
-+ 直譯器：需搭配安裝 Python extension 與 Python 直譯器  
++ 直譯器：Python 3 直譯器，從官網下載安裝，另需搭配安裝 Python 延伸套件  
 + 運算資源：使用本機電腦的 CPU 與 Memory
+
+# 安裝 Python 直譯器
+1. 開啟瀏覽器，造訪 [python.org/downloads](https://www.python.org/downloads/)
+2. 點選對應作業系統（Windows / macOS / Linux）版本進行下載
+3. 安裝時請勾選「Add Python to PATH」選項（Windows 使用者）
+4. 安裝完成後，可於終端機輸入 `python --version` 或 `python3 --version` 確認是否成功
+5. VS Code 啟動時，會偵測並提示選擇已安裝的 Python 直譯器
 
 # 安裝 VS Code
 1. 開啟瀏覽器，搜尋 `VS Code` 或造訪 [code.visualstudio.com](https://code.visualstudio.com)  
@@ -60,8 +67,8 @@ style: |
 + 檔案總管（Explorer）
 + 編輯器（Editor）
 + 終端機（Terminal）
-+ 延伸套件（Extensions）
-+ 側邊列工具（Run, Source Control, Extensions）
++ 延伸套件（Extensions
++ 側邊列工具（Run, Source Control, Extensions
 
 ![bg right 70% w: 100%](../files/image/vscode_screen.png)
 
@@ -74,7 +81,7 @@ style: |
 + 也可點選播放鍵自動執行目前檔案
 
 # VS Code 教學影片
-[VS Code 初學者教學](https://youtu.be/HkFlM73G-hk)
+[VS Code 初學者教學](https://youtu.be/wqRlKVRUV_k?si=xdTAdsVEQhr9LRaP)
 
 # Lab: 使用 VS Code 印出星星
 使用 VS Code 建立新檔 `star_print.py`，鍵入並執行以下程式
@@ -92,3 +99,4 @@ a = 5
 b = 7
 print("sum =", a + b)
 ```
+# Enable GitHub Copilot Extention
