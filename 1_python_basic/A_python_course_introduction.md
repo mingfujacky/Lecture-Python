@@ -64,7 +64,7 @@ style: |
   + 養成問題拆解與運算思維，設計流程解決實務問題
   + 熟悉 Python 程式語法：變數、條件、迴圈、函式
   + 實作資料分析工具：Numpy、Matplotlib、CSV
-  + 探索 AI 輔助程式設計（如 GitHub Copilot）
+  + 探索 AI 輔助程式設計 (Vibe Coding)
 + **授課方式**
 <div class="grid">
     <img src="../files/image/course_op.png" alt="">
@@ -74,26 +74,10 @@ style: |
 > 循序漸進學習 Python 與資料分析，並導入 AI 輔助工具
 ![bg right:50% w:65%](../files/image/course_roadmap.png)
 
-# 🧠 練習很重要！
+# 🧠 練習跟理解很重要！
 
 >我鼓勵你「手動輸入」而非複製貼上，這能幫助你產生寫程式的「肌肉記憶」，並強化理解。
 ![bg right:30% w:300 遞迴演算法大師親授面試心法](https://i3.momoshop.com.tw/1721136961/goodsimg/0013/030/254/13030254_R.jpg)
-
-# 🤖 什麼是 Vibe Coding (氛圍編程)?
-> Vibe coding = coding with AI pair-programmers like Copilot or ChatGPT
-
-+ 由 OpenAI 前研究總監 Andrej Karpathy 提出
-+ 使用生成式 AI（如 Copilot、ChatGPT）以自然語言生成程式
-+ 初學者能快速產出結果，減少挫折、提升學習樂趣
-
-# 🔗 Vibe Coding 延伸閱讀：
-+ [AI強勢取代！今年畢業生有多慘？](https://www.cw.com.tw/article/5135668)
-+ [Vibe Coding是什麼？矽谷最潮新名詞](https://youtu.be/8me0juJCpWM?si=3tcdojzGbhJKxFGo)
-+ [Vibe Coding 操作技巧與技能轉變](https://ikala.ai/zh-tw/blog/ikala-ai-insight/vibe-coding-intro/)
-
-# 🚀 GitHub Copilot 練習題建議
-+ 輸入一個句子，然後計算該句子內的字數，還有最長的字是哪一個
-+ 判斷某年是否為閏年
 
 # Supplement
 # Survey: 對於Python程式開發的掌握度?
