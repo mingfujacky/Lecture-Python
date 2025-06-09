@@ -44,6 +44,7 @@ style: |
 + 由 OpenAI 前研究總監 Andrej Karpathy 提出
 + 使用生成式 AI（如 Copilot、ChatGPT）以自然語言生成程式
 + 初學者能快速產出結果，減少挫折、提升學習樂趣
++ [`影片` Vibe Coding是什麼](https://youtu.be/8me0juJCpWM?si=3tcdojzGbhJKxFGo)
 
 # 😵 AI 強勢崛起，新鮮人面臨的就業挑戰 (1/3)
 https://www.cw.com.tw/article/5135668
@@ -86,19 +87,6 @@ https://dailypythonprojects.substack.com/p/will-ai-replace-programmers-lets
 - 我還需要學程式嗎？
 - 現在學 Python 還來得及嗎？
 
-👉 **這些問題，其實歷史上都曾出現過！**
-
----
-
-## 🚂 歷史經驗怎麼說？
-
-| 技術變革        | 當時的擔憂           | 實際發展                   |
-|-----------------|----------------------|----------------------------|
-| CAD (電腦輔助設計) | 工程師會被取代       | 工程師反而更有生產力       |
-| 虛擬化技術       | 系統管理員不再需要   | 系統管理員的角色進化了     |
-
-🔁 **結論：每次技術進步，都讓專業人員變得更重要，而不是被淘汰。**
-
 ---
 
 ## 📣關於 AI 的真相是……
@@ -120,13 +108,11 @@ https://dailypythonprojects.substack.com/p/will-ai-replace-programmers-lets
 ✅ **讓 AI 處理重複工作，你則專注創造力**
 
 ---
-## ⚙️ 軟體開發包括了
-  - Why: 發覺痛點 / 對談需求
-  - What: 用戶故事 / 驗收標準
-  - How: 架構設計 / 代碼審查  
-  - **When: 原型開發 / 編寫程式**
-  - Who: 個人賦能 / 團隊導入  
-  - Where: 自動測試 / 規模部署
+## ⚙️ 開發軟體過程中，除了AI擅長的原型開發和編寫程式外，工程師還要
+  - 發覺痛點 / 對談需求
+  - 用戶故事 / 驗收標準
+  - 架構設計 / 代碼審查  
+  - 自動測試 / 規模部署
 
 ---
 ## 🎯 你的角色正在轉變！
@@ -139,14 +125,13 @@ https://dailypythonprojects.substack.com/p/will-ai-replace-programmers-lets
 
 🔧 **AI 是工具，但你才是真正的主導力量！**
 
-# 🚀 Vibe Coding 練習
-- `GitHub Copilot w/ VS Code` 輸入一個句子，然後計算該句子內的字數，還有最長的字是哪一個
-- `ChatGPT w/ Thonny` 請用Python寫'判斷某年是否為閏年'的程式
-- `Gemini w/ Google Colab` Write a Python program to remove the background from an image file I just uploaded in Google Colab.
+# 🚀 試試 Vibe Coding
+- `GitHub Copilot + VS Code` 輸入一個句子，然後計算該句子內的字數，還有最長的字是哪一個
+- `ChatGPT + Thonny` 請用Python寫'判斷某年是否為閏年'的程式
+- `Gemini + Google Colab` Write a Python program to remove the background from an image file I just uploaded in Google Colab.
 
 
 # 🔗 延伸閱讀：
-+ [`影片` Vibe Coding是什麼](https://youtu.be/8me0juJCpWM?si=3tcdojzGbhJKxFGo)
 + [`評論`AI強勢取代！今年畢業生有多慘？](https://www.cw.com.tw/article/5135668)
 + [`評論` Vibe Coding 操作技巧與技能轉變](https://ikala.ai/zh-tw/blog/ikala-ai-insight/vibe-coding-intro/)
 + [`評論` AI取代程式設計師?](https://dailypythonprojects.substack.com/p/will-ai-replace-programmers-lets) 
