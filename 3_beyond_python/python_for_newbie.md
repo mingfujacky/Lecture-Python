@@ -54,7 +54,7 @@ style: |
 # Python 過去現在與未來
 - Python 重要版本演進：v1.0 (1994), v2.0 (2000), v3.0 (2008), v4.0 (maybe no)
 - Python 3 有一些特性和之前 Python 2 是不相容的, 現在如果要學習Python,可直接學習Python 3, 但在接手維護既有程式時，要先確定版本
-- Lastest Python version v3.13.2 (2025/02/04)
+- Lastest Python version v3.13.5 (2025/06/11)
 - Python 的應用領域
   - 科學計算與大數據分析
   - 人工智慧與機器學習
@@ -69,6 +69,9 @@ style: |
 - 應用層面廣
 - 豐富的學習資源，社群及技術文件
 ![Python Feratures bg right:40% w:500](https://worlddotwales.wordpress.com/wp-content/uploads/2019/03/image.png)
+
+# 吉多·范羅蘇姆
+[AI程式語言Python之父](https://youtu.be/Wd-QMD-c7so?si=WfEnD_2srWDLwger)
 
 # Online Resources
 - [w3schools.com](https://www.w3schools.com/python/default.asp)
