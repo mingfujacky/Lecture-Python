@@ -61,6 +61,7 @@ ASCII: American Standard Code for Information Interchange
 
 # 字元編碼：Unicode
 Unicode用兩個byte來表示一個字元, 給每個字元定義一個唯一的編碼, 同一個字元, 不論是什麼平臺、不論是什麼程式語言都一樣的編碼。
+[search unicode of a character](https://codepoints.net)
 字元 |Unicode   
 ------|:----
 H|00000000 01001000
@@ -71,7 +72,7 @@ i|00000000 01101001
 
 # 字元編碼：UTF-8
 - 8-bit Unicode Transformation Format
-- 為了節省空間，UTF-8優化Unicode的編碼, 用一至四個bytes對Unicode字元集的所有字元進行再編碼
+- 為了節省空間，UTF-8優化Unicode的編碼, 用一至四個bytes對Unicode字元集的所有字元進行再編碼，以增加儲存及傳輸效率
 
 <style scoped>
 table {
@@ -87,12 +88,19 @@ i|01101001
 你|11100100 10111101 10100000
 好|11100101 10100101 10111101
 
-# 字元編碼的總結
+# 字元編碼的總結(1/2)
 **ASCII**
 - Designed as a 7-bit encoding system.
 - The 8th bit (most significant bit) was often used for error detection or control signals.
 
+**Unicode**
+- Designed to include characters from all languages and scripts.
+- A set of code points for each character. (U+0041 for 'A', U+4E2D for '中')
+
+# 字元編碼的總結(2/2)
 **UTF-8**
+- UTF-8 is a way to encode Unicode's code points into bytes for storage/transmission.
+
 Character Type | UTF-8 Byte Size
 ---------------|----------------
 ASCII (English)|1 byte
@@ -100,6 +108,31 @@ Latin extended|2 bytes
 Chinese / Japan / Korea|3 bytes
 Emoji / Rare used characters|4 bytes
 
+# Python中有關字元編碼的函數
+```python
+# Unicode 是 chr() 的輸入標準，表示Unicode字元對應的編號。
+print(chr(65))      # A，對應 Unicode 編碼點 U+0041（也是 ASCII 的 A）
+print(chr(0x4E2D))  # 中，U+4E2D
+print(chr(128512))  # 😀，U+1F600
+
+# 從字元取得 Unicode 整數
+print(ord('中'))  # 20013
+print(ord('A'))   # 65
+
+# Unicode to UTF-8 bytes
+print('A'.encode('utf-8'))     # b'A'
+print('中'.encode('utf-8'))    # b'\xe4\xb8\xad'
+print('😀'.encode('utf-8'))    # b'\xf0\x9f\x98\x80'
+# UTF-8 bytes back to string
+
+print(b'\xe4\xb8\xad'.decode('utf-8'))  # '中'
+print('abc' > 'aBc')  # True, 'b' > 'B' in ASCII/Unicode
+```
+# 網頁及Python程式的編碼
+- 網頁看到的字，本質上是 Unicode 編碼點(code point)
+- 網頁儲存/傳輸時（最常見）使用 UTF-8 格式編碼(encode)後為之
+- Python 3 字串是 Unicode 字元集，使用 `str`類型表示
+- Python 3 讀取或儲存程式時的預設編碼方式是UTF-8
 
 # 數字編碼：二進位
 ![bg right:50% w:500 數字編碼](https://kopu.chat/wp-content/uploads/2017/04/e89ea2e5b995e5bfabe785a7-2017-04-28-21-26-01.png)
