@@ -40,16 +40,15 @@ style: |
   }
 ---
 # Python的起源
-- 吉多·范羅蘇姆 (Guido van Rossum)，生於荷蘭，為Python程式設計語言的最初設計者
+- [吉多·范羅蘇姆 Guido van Rossum](https://youtu.be/Wd-QMD-c7so?si=WfEnD_2srWDLwger)，荷蘭人，為Python的最初設計者
   - Python 誕生於1990年代
-  - Python 一種直譯式的程式語言
   - 以BBC電台的 “Monty Python’s Flying Circus” 命名
+
 - 吉多對 Python 的目標
   - 一門簡單直觀的語言並與競爭者一樣強大
   - 開源，以便任何人都可以為它做貢獻
   - 代碼像純英語那樣容易理解
   - 適用於短期開發的日常任務
-![吉多·范羅蘇姆 bg right:30% w:90%](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_5MjTt55ydzcjPDKlIPDS55vpMJEldYJMEQ&s)
 
 # Python 過去現在與未來
 - Python 重要版本演進：v1.0 (1994), v2.0 (2000), v3.0 (2008), v4.0 (maybe no)
@@ -63,15 +62,20 @@ style: |
   - 動畫遊戲開發，網路爬蟲、駭客攻防
 
 # Python 的特點
-- 容易上手：語法簡單直白，可讀性高
-- 免費函數庫：Python 及其函數庫皆免費
+- 容易學習：語法簡單直白，可讀性高
+- 免費函數庫：Python內建及其第三方函數庫皆為開源軟體，免費
 - 跨平台
 - 應用層面廣
 - 豐富的學習資源，社群及技術文件
 ![Python Feratures bg right:40% w:500](https://worlddotwales.wordpress.com/wp-content/uploads/2019/03/image.png)
 
-# 吉多·范羅蘇姆
-[AI程式語言Python之父](https://youtu.be/Wd-QMD-c7so?si=WfEnD_2srWDLwger)
+# Python 的不足
+- 執行速度較慢：Python 是解釋型語言，執行速度不如編譯型語言如 C/C++
+- 記憶體消耗較大：Python 的記憶體管理較為寬鬆，可能導致較高的記憶體消耗
+- 多線程性能：Python 的全域直譯器鎖（GIL）限制
+- 不適合移動端開發：雖然有一些框架可以用於移動端開發，但 Python 在移動端的生態系統不如其他語言如 Java 或 Swift 成熟
+- 動態類型：雖然這是 Python 的一個優點，但也可能導致在大型項目中出現類型錯誤，特別是在沒有良好測試的情況下  
+
 
 # Online Resources
 - [w3schools.com](https://www.w3schools.com/python/default.asp)
