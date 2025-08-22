@@ -1,10 +1,10 @@
 ---
 marp: true
 theme: default
-class: 
+class: default
 size: 16:9
 paginate: true
-footer: 國立陽明交通大學 電子與光子學士學位學程
+header: 國立陽明交通大學 電子與光子學士學位學程
 headingDivider: 1
 style: |
   section::after {
@@ -32,7 +32,7 @@ style: |
   }
   
   .blue-text {
-    color: lightskyblue;  
+    color: blue;  
   }
 
   .small-text {
@@ -78,7 +78,7 @@ style: |
 + Add markdown text
 
 # 📺 Google Colab 教學影片
-[開始使用 Google Colab](https://youtu.be/eJCXFIoOwdw?si=_HyCFGAgGT4HAYlx)
+[![開始使用 Google Colab](https://i.ytimg.com/vi/eJCXFIoOwdw/mqdefault.jpg)](https://youtu.be/eJCXFIoOwdw?si=_HyCFGAgGT4HAYlx)
 
 # Lab: 用 Colab 寫第一個 Python 程式
 + 建立新 CoLab notebook
@@ -92,3 +92,19 @@ print('result =', a + b)
 ```
 + 關閉 CoLab
 + 回 Google Drive，打開並確認程式仍可執行
+
+# Notebook-style Python 開發環境
+- Google Colab
+- VS Code（搭配 Jupyter 擴充套件）
+- Jupyter Notebook / Jupyter Lab
+
+### Notebook-style IDE，以cell為執行單位，資料分析師愛用
+- 副檔名為 .ipynb (Interactive PYthon NoteBook)，互動式的操作模式
+- 當鍵入 <span class='blue-text'>'Hi, World!'</span> 後，執行該cell，會印出字串的字面值 Hi, World! 
+- 當鍵入 <span class='blue-text'>1 + 2 + 3 + 4 + 5</span> 後，執行該cell，會執行數學運算並輸出結果 15
+- 只有最後一行的運算結果會被自動顯示，若要顯示多個輸出，請使用 `print()`
+```python
+print("NYCU welcome you!!")
+10 * 10 # 不會被顯示，因為不是最後一行
+1 + 2 + 3 + 4 +5 # 只會顯示這一行結果
+```

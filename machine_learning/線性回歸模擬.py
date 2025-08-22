@@ -15,11 +15,11 @@ from sklearn.linear_model import LinearRegression
 # plt.scatter(x, y)
 # plt.show()
 
-# # 畫在一起
+# 畫在一起
 # x = np.linspace(0, 5, 50)
 # y = 1.2 * x + 0.8 + 0.5 * np.random.randn(50)
 # plt.scatter(x, y)
-# plt.plot(x, 1.2 * x + 0.8, 'b')
+# plt.plot(x, 1.2 * x + 0.8, color='red')
 # plt.show()
 
 # 使用sklearn幫我們找線性回歸線
@@ -28,7 +28,8 @@ y = 1.2 * x + 0.8 + 0.5 * np.random.randn(50)
 
 regr = LinearRegression()
 X = x.reshape(len(x), 1)
-regr.fit(X, y)
+result = regr.fit(X, y)
+print(result.summary)
 print(regr.predict([[1.3],[2.0]])) # need 2D array as parameter
 print(regr.predict([[0.5],])) # need 2D array as parameter
 print(regr.predict([[0.1]])) # need 2D array as parameter

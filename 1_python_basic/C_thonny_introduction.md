@@ -1,10 +1,10 @@
 ---
 marp: true
 theme: default
-class: 
+class: default
 size: 16:9
 paginate: true
-footer: 國立陽明交通大學 電子與光子學士學位學程
+header: 國立陽明交通大學 電子與光子學士學位學程
 headingDivider: 1
 style: |
   section::after {
@@ -72,7 +72,8 @@ style: |
 	+	可直接顯示變數內容，無需使用 print()
 
 # Thonny 使用介紹影片
-[Thonny – 初學者利器] (https://youtu.be/VLo1YM83XO8?si=2NKHxtgKnaXmA9J4)
+[![Thonny – 初學者利器](https://i.ytimg.com/vi/VLo1YM83XO8/mqdefault.jpg)](https://youtu.be/VLo1YM83XO8?si=2NKHxtgKnaXmA9J4)
+
 
 # Lab: 使用 Thonny 印字串
 使用 Thonny 鍵入以下程式並執行，存檔為 do_print.py
@@ -91,3 +92,12 @@ num2 = 2
 total = num1 + num2
 print(total)
 ```
+
+# Coding-style Python 開發環境
+- Thonny / IDLE
+- Pycharm / Spyder
+- VS Code (搭配 Python 擴充套件)
+- Intellij IDEA (搭配 Python 擴充套件)
+
+### Coding-style IDE，以整個.py檔為執行單位，軟體工程師愛用
+- 副檔名為 .py
