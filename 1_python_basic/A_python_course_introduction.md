@@ -63,7 +63,7 @@ style: |
 + **課程目標**
   + 養成問題拆解與運算思維，設計流程解決實務問題
   + 熟悉 Python 程式語法：變數、條件、迴圈、函式
-  + 實作資料分析工具：Numpy、Matplotlib、CSV
+  + 實作資料分析工具：Numpy、Matplotlib
   + 探索 AI 輔助程式設計 (Vibe Coding)
 + **授課方式**
 <div class="grid">
@@ -117,6 +117,29 @@ Class |0   |1   |2
 新尖兵 |0% |50% |50%
 學士後 |0% |91% |9%
 
+# 520012 電腦程式與計算分析(一) 課程相關資訊
+- TA: TBD 
+- Google meet: https://meet.google.com/diy-eivm-ymc
+- Textbook: Python Basics: A Practical Introduction to Python 3. David Amos, et al. 2023. ISBN：1775093328. (中文版 https://www.books.com.tw/products/0010955256?sloc=main)
+- Instructional Arrangements
+  - Explain course material and hold hands-on sessions in class (laptop is required).
+  - Deliver final project in group (<= 3 members) or individual. The project topic is related to Python coding.
+  - Overdue assignments or reports won't be accepted.
+
+# 520012 電腦程式與計算分析(一) 評分方式
+- Attendance(10%): 5 roll calls 
+  - 2 points for full attendance
+  - 1 point for excused absence (with approved leave)
+  - 0 point for unexcused absence
+- Assignment (10%): 2 assignments will be given
+- Formosa online judge system coding (20%)
+- Mid-term exam (20%): closed-book written exam, covering the first half of the course.
+- Final-term exam (20%): closed-book written exam, covering the entire course.
+- Final report oral presentation in week 14 and 15 (10%)
+- Final written report in week 17 (10%)  
+
+# 520012 電腦程式與計算分析(一) 課程綱要
+[114 1st Semester](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=520012&lang=)  
 
 
 
