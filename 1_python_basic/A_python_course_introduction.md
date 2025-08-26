@@ -71,7 +71,6 @@ style: |
 </div>
 
 # 課程大綱
-> 循序漸進學習 Python 與資料分析，並導入 AI 輔助工具
 ![bg right:50% w:65%](../files/image/course_roadmap.png)
 
 # 🧠 練習跟理解很重要！
@@ -120,10 +119,12 @@ Class |0   |1   |2
 # 520012 電腦程式與計算分析(一) 課程相關資訊
 - TA: TBD 
 - Google meet: https://meet.google.com/diy-eivm-ymc
-- Textbook: Python Basics: A Practical Introduction to Python 3. David Amos, et al. 2023. ISBN：1775093328. (中文版 https://www.books.com.tw/products/0010955256?sloc=main)
+- Textbook: Python Basics: A Practical Introduction to Python 3. David Amos et al. 2023. ISBN：1775093328. 
+(中文版 https://www.books.com.tw/products/0010955256?sloc=main)
 - Instructional Arrangements
-  - Explain course material and hold hands-on sessions in class (laptop is required).
-  - Deliver final project in group (<= 3 members) or individual. The project topic is related to Python coding.
+  - Laptop is required to practice hands-on sessions in class.
+  - Deliver final project in group (<= 3 members) or individual. The project topic is related to Python coding. 
+  (eg. data analysis, game development, web scraping, application design)
   - Overdue assignments or reports won't be accepted.
 
 # 520012 電腦程式與計算分析(一) 評分方式
