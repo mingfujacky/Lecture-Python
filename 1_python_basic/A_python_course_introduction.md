@@ -117,14 +117,14 @@ Class |0   |1   |2
 學士後 |0% |91% |9%
 
 # 520012 電腦程式與計算分析(一) 課程相關資訊
-- TA: TBD 
+- TA: 何宇文 wayneho4415@gmail.com; 林駿樺 abd90107sc.14@nycu.edu.tw
+ 
 - Google meet: https://meet.google.com/diy-eivm-ymc
 - Textbook: Python Basics: A Practical Introduction to Python 3. David Amos et al. 2023. ISBN：1775093328. 
 (中文版 https://www.books.com.tw/products/0010955256?sloc=main)
 - Instructional Arrangements
   - Laptop is required to practice hands-on sessions in class.
-  - Deliver final project in group (<= 3 members) or individual. The project topic is related to Python coding. 
-  (eg. data analysis, game development, web scraping, application design)
+  - Deliver final project in group (<= 3 members) or individual. The project topic is related to Python coding. (eg. data analysis, game development, web scraping, application design)
   - Overdue assignments or reports won't be accepted.
 
 # 520012 電腦程式與計算分析(一) 評分方式
