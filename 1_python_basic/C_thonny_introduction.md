@@ -39,7 +39,7 @@ style: |
     font-size: 0.90rem;
   }
 ---
-# 本機開發環境 - Thonny
+# 本機環境 - Thonny
 + 整合開發環境：Thonny editor  
 + 直譯器：內建於 Thonny 的 Python 3 直譯器  
 + 運算資源：使用本機電腦的 CPU 與 Memory
@@ -68,8 +68,10 @@ style: |
   + 程式撰寫區，輸入 Python 陳述句（Statement）
   + 若要輸出到螢幕, 需使用print()函式,才能將結果輸出到 Shell
 + 💻 Shell
-  + 可即時執行 Python 陳述句與運算式（Expression）
-	+	可直接顯示變數內容，無需使用 print()
+  + 作為print輸出區
+  + 作為實驗測試區
+    + 可即時測試 Python 陳述句與運算式（Expression）
+    + 可直接顯示變數內容，無需使用 print()
 
 # Thonny 使用介紹影片
 [![Thonny – 初學者利器](https://i.ytimg.com/vi/VLo1YM83XO8/mqdefault.jpg)](https://youtu.be/VLo1YM83XO8?si=2NKHxtgKnaXmA9J4)
@@ -90,14 +92,12 @@ print("  |")
 num1 = 1
 num2 = 2
 total = num1 + num2
-print(total)
+print("Result:", total)
 ```
 
 # Coding-style Python 開發環境
-- Thonny / IDLE
-- Pycharm / Spyder
-- VS Code (搭配 Python 擴充套件)
-- Intellij IDEA (搭配 Python 擴充套件)
+- Python-specific IDE：Thonny / Pycharm / Spyder
+- Code Editor: VS Code / Intellij IDEA (搭配 Python 擴充套件)
 
 ### Coding-style IDE，以整個.py檔為執行單位，軟體工程師愛用
 - 副檔名為 .py

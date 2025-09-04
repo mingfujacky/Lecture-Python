@@ -39,13 +39,13 @@ style: |
     font-size: 0.80rem;
   }
 ---
-# Python 與 AI 數據分析
+# 電腦程式與計算分析(一) <br> Python 與 AI 數據分析
 > 
-> 程式思維養成：以 Python 為核心工具
+> 
 > 
 <br>
 
-- 本課程針對初學者設計，上課時數為 40 小時
+- 本課程針對初學者設計，以 Python 為核心工具，培養程式思維
 - 課程教材請掃描右方QR Code 或連接至GitHub https://github.com/mingfujacky/Lecture-Python.git
 ![bg right:30% w:100% Python Material in Git](../files/image/qrcode_lecture_python.png)
 
@@ -120,7 +120,7 @@ Class |0   |1   |2
 - TA: 何宇文 wayneho4415@gmail.com; 林駿樺 abd90107sc.14@nycu.edu.tw
  
 - Google meet: https://meet.google.com/diy-eivm-ymc
-- Textbook: Python Basics: A Practical Introduction to Python 3. David Amos et al. 2023. ISBN：1775093328. 
+- Textbook: Python Basics: A Practical Introduction to Python 3. David Amos et al. 2023. 
 (中文版 https://www.books.com.tw/products/0010955256?sloc=main)
 - Instructional Arrangements
   - Laptop is required to practice hands-on sessions in class.
@@ -133,11 +133,11 @@ Class |0   |1   |2
   - 1 point for excused absence (with approved leave)
   - 0 point for unexcused absence
 - Assignment (10%): 2 assignments will be given
-- Formosa online judge system coding (20%)
-- Mid-term exam (20%): closed-book written exam, covering the first half of the course.
-- Final-term exam (20%): closed-book written exam, covering the entire course.
-- Final report oral presentation in week 14 and 15 (10%)
-- Final written report in week 17 (10%)  
+- 40 questions in OJ system (20%): 4 submissions @ 9/26, 10/31, 11/28, 12/26
+- Mid-term exam (20%): closed-book written exam @ 10/31
+- Final-term exam (20%): closed-book written exam @ 12/19
+- Final project oral presentation (10%): 12/05 or 12/12
+- Final project written report (10%): 12/26
 
 # 520012 電腦程式與計算分析(一) 課程綱要
 [114 1st Semester](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=520012&lang=)  

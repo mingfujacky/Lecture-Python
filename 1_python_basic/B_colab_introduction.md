@@ -39,14 +39,13 @@ style: |
     font-size: 0.90rem;
   }
 ---
-# 安裝與使用 Google Colab
-
 # Python 程式的執行環境
 
 + **整合開發環境(IDE)** 編輯原始碼用
   + Thonny
+  + Google Colab
   + VS Code
-  + Jupyter Lab
+  + Jupyter Notebook
 + **直譯器** 轉原始碼成機器碼
   + Python 3
 + **運算資源** 實際執行程式的設備
@@ -83,13 +82,14 @@ style: |
 # Lab: 用 Colab 寫第一個 Python 程式
 + 建立新 CoLab notebook
 + 命名為 first_python_on_colab.ipynb
-+ 執行簡單數學運算，體驗互動式功能: 鍵入 20 + 4 * (3+2), 然後執行
++ 執行簡單數學運算: print(20 + 4 * (3+2)), 然後執行
 + 執行基本 Python 程式，理解程式運作方式: 鍵入以下程式碼, 然後執行
 + 存檔
 ```python
 a = 1
 b = 2
-print('result =', a + b)
+c = a + b
+print('result =', c)
 ```
 + 關閉 CoLab
 + 回 Google Drive，打開並確認程式仍可執行

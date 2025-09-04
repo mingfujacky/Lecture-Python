@@ -84,9 +84,16 @@ print(result)  # 輸出 ['apple', 'banana-orange']
 |---------------------------|--------------|----------------|-------------------
 |one line string            |"John"        |my_str = input()| OJ#1868 
 |one line number            |"100"         |n = int(input()) | OJ#1840
-|one line two numbers       |"10 20"       |a, b = list(map(int, input().split())  | OJ#1841
+|one line two numbers       |"10 20"       |a, b = map(int, input().split())  | OJ#1841
 |one line not fixed number  |"1 2 3 4 5 6" |x = list(map(int, input().split())) |
 
+# Lab:
+1. write OJ#1933  (早安 Python, no input)
+2. write OJ#1868  (Say Hello, input a string)
+3. write OJ#1840  (整數的平方, input a number)
+4. write OJ#1841  (整數相加, input two numbers)
+
+# Supplement
 # Part 1
 <style scoped>
 table {
@@ -163,9 +170,3 @@ table {
 |1982|直角三角形|
 |1983|Two Sum|
 |1986|左左右右|
-
-# Lab:
-1. write OJ#1933  (早安 Python, no input)
-2. write OJ#1868  (Say Hello, input a string)
-3. write OJ#1840  (整數的平方, input a number)
-4. write OJ#1841  (整數相加, input two numbers)
