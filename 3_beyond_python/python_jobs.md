@@ -66,3 +66,9 @@ Data Engineer|Build and maintain the data architecture (databases, large-scale p
 - <span class="small-text">適性測驗、英文測驗</span>
 - <span class="small-text">部門主管二面</span>
 - <span class="small-text">人事部門 面試</span>
+
+# 2025 tsmc IT Day
+
+[![IT Organization](https://i.ytimg.com/vi/X5e5hm2bst0/mqdefault.jpg)](https://youtu.be/X5e5hm2bst0?si=o6slGL4ILtty067p&t=284)
+
+[![Recruiting process](https://i.ytimg.com/vi/X5e5hm2bst0/mqdefault.jpg)](https://youtu.be/X5e5hm2bst0?si=dl5TI6WH-pLUs3SE&t=1027)
