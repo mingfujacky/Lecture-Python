@@ -16,6 +16,7 @@ def mul(a, b):
 def div(a, b):
     return a / b
 
+# test case
 if __name__ == '__main__':
     print(add(1, 2))
     print(sub(1, 2))
