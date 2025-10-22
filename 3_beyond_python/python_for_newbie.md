@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-class: invert
+class: 
 size: 16:9
 paginate: true
 footer: 國立陽明交通大學 電子與光子學士學位學程
@@ -91,3 +91,6 @@ Markdown Support | ❌ No | ✅ Yes
 2. Object-Oriented Programming (OOP) helps structure and organize your code effectively
 3. Data Structures and Algorithms to supercharge your program efficiency.
 4. With solid logic and structure, learning AI becomes much easier.
+
+# 吉多·范羅蘇姆（荷蘭語：Guido van Rossum
+[![想學人工智慧，全都得用到這門語言！ AI程式語言Python之父](https://i.ytimg.com/vi/Wd-QMD-c7so/mqdefault.jpg)](https://youtu.be/Wd-QMD-c7so?si=LSvR4BgV4hw3cev-)
