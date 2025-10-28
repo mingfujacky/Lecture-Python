@@ -82,21 +82,5 @@ Q: 老師我主要想先詢問我自己學程式的時候有點覺得力不從�
 # GPT Might Make Mistake
 ![bg right:70% w:850](../files/image/gpt_make_mistake.png)
 
-# AI浪潮害失業？ 微軟宣布全球大規模裁員3%
-[又裁員！微軟宣布裁減全球 6000 名員工，劍指管理階層](https://www.managertoday.com.tw/articles/view/70226??utm_source=copyshare)
-外媒 4 月報導，微軟（Microsoft）正籌畫啟動新一輪裁員，這次聚焦中階主管，包括產品經理與專案經理，最快於 5 月執行。
-據《商業內幕》（Business Insider）等媒體引述內部高層消息指出，這波裁員將以「PM 比例」作為組織精簡的關鍵指標。所謂「PM 比例」，是指產品經理或專案經理與工程師之間的比例，強調提升團隊中實際負責開發的工程人力（建設者）比例，減少協調與管理層級，以提升整體效率與執行力。
-另外，微軟執行長納德拉（Satya Nadella）4月表示，在微軟，一些專案中有多達30%的程式碼現在是由AI編寫的。
-
-# Will AI Replace Programmers?
-<div class="substack-post-embed"><a data-post-link href="https://dailypythonprojects.substack.com/p/will-ai-replace-programmers-lets">Read on Substack</a></div>
-
-- AI is a Tool — You Are the Force Behind It. 
-- We’ve Been Here Before: CAD Didn’t Replace Engineers.
-- History Repeats: Virtualization Didn’t Kill Sysadmins.
-- The Hype Serves Shareholders — Not Reality. No company will let an AI deploy core systems or write production code without oversight. Who provides that oversight?
-- So What Should You Do? 
-  If you’re learning Python or improving your programming skills — keep going. But don’t ignore AI either. Learn how to use it to your advantage. Let it handle the boring stuff so you can focus on the creative — designing systems, solving problems, and making real-world impact.
-
 # 
 ![bg left:100% w:50%](../files/image/farewell.png)
