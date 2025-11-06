@@ -149,7 +149,7 @@ Class |0   |1   |2
 - Application briefings (systems architecture, main function screen shot) 
 - Lesson learned
 - Final project oral presentation: 12/05 16組, 12/12 16組, 共32組, 每組10分鐘
-- Final report written report:12/26 23:59 
+- Final project written report:12/26 23:59 
 
 # Roles in Project
 A group can have 1 to 4 members. Possible roles include:
