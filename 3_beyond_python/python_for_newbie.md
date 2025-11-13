@@ -68,7 +68,6 @@ style: |
 - [Python.org](https://python.org)
 - [Python tutor](https://pythontutor.com/python-compiler.html#mode=edit)
 - [STEAM 教育學習網](https://steam.oxxostudio.tw/category/python/index.html)
-- [資料科學家的工作日常](https://youtu.be/dk727GTfig4?si=PRkmJiQ-RjiEkFzE)
 
 # Reference Books
 - [Real Python 人氣站長教你動手寫程式](https://www.books.com.tw/products/0010955256?-srsltid=AfmBOopOYkEedUxjBdVTffrrNdGFvMn-SX_aVAbDZFHiKravuV9VQ_U4)
