@@ -142,6 +142,12 @@ Class |0   |1   |2
 # 520012 電腦程式與計算分析(一) 課程綱要
 [114 1st Semester](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=520012&lang=)  
 
+# 期中期末考試規定
+- 請根據助教指示安排進入考場入座，不得攜帶書本及參考資料
+- 考試期間不得使用手機或其他的具通訊功能的設備，請將此種設備放置在監考人員的可視範圍內，如桌上或教室前面
+- 攜帶學生證或其他可以確認身份的證件
+- 考試時間為六十分鐘
+
 # Recommended TOC of Final Report
 - **Requirements** we plan to fulfill and/or **problems** we plan to solve
 - Teaming (roles and peer evaluation (1~10 points))
