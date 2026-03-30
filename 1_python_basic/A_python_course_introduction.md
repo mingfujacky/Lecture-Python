@@ -39,7 +39,7 @@ style: |
     font-size: 0.80rem;
   }
 ---
-# 電腦程式與計算分析(一) <br> Python 與 AI 數據分析
+# 電腦程式與計算分析(一) <br> Python 與 數據分析
 > 
 > 
 > 
