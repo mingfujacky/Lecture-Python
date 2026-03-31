@@ -84,13 +84,14 @@ style: |
 + 命名為 first_python_on_colab.ipynb
 + 執行簡單數學運算: print(20 + 4 * (3+2)), 然後執行
 + 執行基本 Python 程式，理解程式運作方式: 鍵入以下程式碼, 然後執行
-+ 存檔
+
 ```python
 a = 1
 b = 2
 c = a + b
 print('result =', c)
 ```
++ 存檔
 + 關閉 CoLab
 + 回 Google Drive，打開並確認程式仍可執行
 
