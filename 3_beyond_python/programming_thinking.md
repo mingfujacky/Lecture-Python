@@ -72,7 +72,7 @@ style: |
 
 # Coding vs Programming
 
-![bg right:65% w:650](https://cdn-galmn.nitrocdn.com/GSQzEdMFdIGgicqYAambSetFochNVMes/assets/images/optimized/rev-98bc970/www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming.png.webp)
+![bg right:65% w:650](https://cdn-galmn.nitrocdn.com/GSQzEdMFdIGgicqYAambSetFochNVMes/assets/images/optimized/rev-a7d5e37/www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming.png.webp)
 
 # 試著寫一個程式!!
 寫一個猜謎遊戲，電腦隨機出剪刀, 石頭或是布，請使用者來猜
